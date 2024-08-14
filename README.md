@@ -8,8 +8,11 @@ This project aims to automate the testing process of the Lenskart website, focus
 
 ## Features
 **Automated Testing**: Utilizes Python and Selenium to automate the testing process.
+
 **Page Object Model**: Implements the POM framework for better organization and maintainability of test cases.
+
 **Comprehensive Testing**: Tests various submodules of the Lenskart website.
+
 **Detailed Reporting**: Generates test reports and screenshots of failing test cases for quick issue resolution.
 
 ## Contributing
