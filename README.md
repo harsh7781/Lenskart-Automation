@@ -44,36 +44,50 @@ Before running the tests, ensure you have the following installed:
 
 ---
 ## Installation & Setup
-* Clone the repository:
-git clone [https://github.com/harsh7781/Lenskart-Automation.git](https://github.com/harsh7781/Lenskart-Automation.git)
-cd Lenskart-Automation
+**Clone the repository:**
+```bash
+  git clone [https://github.com/harsh7781/Lenskart-Automation.git](https://github.com/harsh7781/Lenskart-Automation.git)
+  cd Lenskart-Automation
+```
 
-* Install dependencies:
+**Install dependencies:**
+```bash
 pip install selenium pytest pytest-html pytest-xdist
+```
 
 ---
 
 ## 🏃Execution
 You can run the entire test suite using the provided batch file or via terminal:
-* Option 1: Using Batch File
+
+**Option 1: Using Batch File**
 Double-click run.bat to execute the predefined test suite.
 
-Option 2: Using Pytest (Terminal)
+**Option 2: Using Pytest (Terminal)**
 * Run all tests
+```bash
 pytest -v -s testCases/
+```
 
-* Run tests and generate HTML report
+**Run tests and generate HTML report**
+```bash
 pytest -v -s --html=Reports/report.html testCases/
+```
 
 ---
 
 ## 🤝 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create.
-* Fork the Project.
-* Create your Feature Branch (git checkout -b feature/NewFeature)
-* Commit your Changes (git commit -m 'Add some NewFeature')
-* Push to the Branch (git push origin feature/NewFeature)
-* Open a Pull Request
+
+**Fork the Project.**
+
+**Create your Feature Branch (git checkout -b feature/NewFeature)**
+
+**Commit your Changes (git commit -m 'Add some NewFeature')**
+
+**Push to the Branch (git push origin feature/NewFeature)**
+
+**Open a Pull Request**
 
 ---
 
